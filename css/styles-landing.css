@@ -1,5 +1,5 @@
 /* ========== GENERALES ========== */
-h2{
+h2, h3{
 
   font-family: 'Playfair Display', serif;
 
@@ -235,6 +235,8 @@ h2{
 }
 
 /* ========== ESTILOS DE NUESTROS SERVICIOS==========*/
+
+/* ----- Título ----- */
 .servicios{
 
   display: flex;
@@ -262,5 +264,60 @@ h2{
   line-height: 1.5;
   width: 640px;
   text-align: center;
+
+}
+
+/* ----- Tarjetas ----- */
+
+.servicios-container{
+
+  max-width: 1200px;
+  padding: 40px 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 32px;
+
+}
+
+.tarjeta {
+
+  background-color: #F8F9FA;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.tarjeta-imagen {
+
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+
+}
+
+.tarjeta-texto {
+
+  padding: 10px 0px;
+
+}
+
+.tarjeta-texto h3 {
+
+  color: #4A4A4A;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.tarjeta-texto p {
+
+  font-size: 0.8rem;
+  color: #6D6155;
+  text-align: center;
+  margin: 0px 15px;
+  font-weight: 400;
 
 }
