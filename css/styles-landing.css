@@ -1,0 +1,266 @@
+/* ========== GENERALES ========== */
+h2{
+
+  font-family: 'Playfair Display', serif;
+
+}
+
+.titulo{
+
+  font-weight: 600;
+  color: #2B5392 !important;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+
+}
+
+.parrafo{
+
+  color: #6D6155;
+
+}
+
+
+/* ========== ESTILOS DEL HERO BANNER ========== */
+
+/* ----- Hero ----- */
+.hero {
+
+  height: 80vh;
+  background-image: 
+    linear-gradient(
+      90deg,
+    rgba(67, 66, 72, 0.78) 0%,
+    rgba(92, 92, 99, 0.50) 55%,
+    rgba(92, 92, 99, 0.10) 100% ), 
+    url('/images/hero/hero.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  color: #FCF6F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+/* ----- Texto ----- */
+.hero h2{
+
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 1;
+  width: 685px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.hero p{
+
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 670px;
+  color: #e9e6e2de;
+  margin-left: 20px;
+
+}
+
+.boton-hero{
+
+  display: inline-flex;
+  color: #FCF6F0;
+  font-weight: 600;
+  border-radius: 12px;
+  margin-top: 25px;
+  margin-left: 25px;
+  align-items: center;
+  
+}
+
+.agendar{
+
+  background-color: #2B5392;
+  padding: 12.5px 30px;
+  transition: background-color 0.25s ease;
+
+}
+
+.agendar img{
+
+  padding-left: 12.5px;
+
+}
+
+.agendar:hover{
+
+  background-color: #1A3A6B;
+
+}
+
+.whatsapp{
+
+  background-color: #fcf6f029;
+  border: 1px solid #FCF6F0;
+  padding: 12.5px 40px;
+  transition: background-color 0.25s ease;
+
+}
+
+.whatsapp:hover{
+
+  background-color: #fcf6f04d;
+
+}
+
+/* ========== ESTILOS DE LA SECCIÓN SOBRE BISKIT ==========*/
+
+.sobre-biskit{
+
+  display: flex;
+  align-items: center;
+
+}
+
+/* ----- Imagen ----- */
+.imagen-container{
+
+  margin-left: 120px;
+
+}
+
+.imagen-container img{
+
+  position: relative;
+
+}
+
+.circulo{
+
+  position: absolute;
+  left: 10%;
+  background-color: #BF8552;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+
+}
+
+/* ----- Sobre Biskit ----- */
+.text-container{
+
+  margin-left: 15px;
+
+}
+
+.text-container h2{
+
+  font-size: 2.35rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #4A4A4A;
+  width: 550px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+
+}
+
+.text-container .parrafo{
+
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width: 640px;
+
+}
+
+/* ----- Características ----- */
+.caracteristicas{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 100px;
+
+}
+
+.caracteristicas article{
+
+  display: flex;
+  align-items: center;
+
+}
+
+.barra{
+
+  height: 75px;
+  width: 11px;
+  background-color: #bf85525d;
+  border-radius: 12px;
+
+}
+
+.text-container-2{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+
+}
+
+.text-container-2 h2{
+
+  font-size: 1.4rem;
+  letter-spacing: 1.25px;
+  font-weight: 900;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+
+}
+
+.text-container-2 .parrafo{
+
+  color: #6D6155;
+  font-size: 0.9rem;
+  width: 280px;
+
+}
+
+/* ========== ESTILOS DE NUESTROS SERVICIOS==========*/
+.servicios{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.servicios h2{
+
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #4A4A4A;
+  width: 550px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.servicios .parrafo{
+
+  color: #6D6155;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width: 640px;
+  text-align: center;
+
+}
