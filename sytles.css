@@ -1,0 +1,216 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: 'Inter', sans-serif;
+  /* border: 1px solid red; */
+  
+}
+
+body{
+
+  background-color: #FCF6F0;
+
+}
+
+a{
+
+  text-decoration: none;
+
+}
+
+/* ========== ESTILOS DE LA NAVBAR ========== */
+
+/* ----- Generales ----- */
+.navbar {
+
+  display: flex;
+  position: sticky;
+  height: 12.5vh;
+  align-items: center;
+  background: linear-gradient(
+  90deg,
+  #ecebe8 0%,
+  #efeeeb 35%,
+  #f2f1ee 50%,
+  #f5f3f0 65%,
+  #faf8f5 100%
+  );
+
+}
+
+.opciones {
+
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 0.85rem;
+  font-weight: 500;
+
+}
+
+/* ----- BISKIT ----- */
+
+.navbar > a{
+
+  display: flex;
+
+}
+
+.nombre{
+
+  padding-left: 30px;
+
+}
+
+.icono{
+
+  padding-left: 10px;
+
+}
+
+/* ----- Páginas ----- */
+.paginas a{
+
+  color: #6D6155;
+  margin: 0px 20px; 
+  transition: color 0.25s ease;
+
+}
+
+.paginas a:hover{
+
+  color: #2B5392;
+
+}
+
+
+/* ----- Botón Contáctanos ----- */
+.contacto{
+
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #2B5392;
+  border-radius: 12px;
+  margin-left: 15px;
+  transition: background-color 0.25s ease;
+
+}
+
+.contacto:hover{
+
+  background-color: #1A3A6B;
+
+}
+
+.contacto p{
+
+  color: #FCF6F0;
+  margin-right: 10px;
+  margin-left: 17.5px;
+
+}
+
+.contacto img{
+
+  margin-left: 5px;
+
+}
+
+/* ========== ESTILOS DEL HERO BANNER ==========*/
+
+/* ----- Hero ----- */
+.hero {
+
+  height: 80vh;
+  background-image: 
+    linear-gradient(
+      90deg,
+    rgba(67, 66, 72, 0.78) 0%,
+    rgba(92, 92, 99, 0.50) 55%,
+    rgba(92, 92, 99, 0.10) 100% ), 
+    url('/images/hero/hero.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  color: #FCF6F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+/* ----- Texto ----- */
+.hero h2{
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 1;
+  width: 685px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.hero p{
+
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 670px;
+  color: #e9e6e2de;
+  margin-left: 20px;
+
+}
+
+.boton-hero{
+
+  display: inline-flex;
+  color: #FCF6F0;
+  font-weight: 600;
+  border-radius: 12px;
+  margin-top: 25px;
+  margin-left: 25px;
+  align-items: center;
+  
+}
+
+.agendar{
+
+  background-color: #2B5392;
+  padding: 12.5px 30px;
+  transition: background-color 0.25s ease;
+
+}
+
+.agendar img{
+
+  padding-left: 12.5px;
+
+}
+
+.agendar:hover{
+
+  background-color: #1A3A6B;
+
+}
+
+.whatsapp{
+
+  background-color: #fcf6f029;
+  border: 1px solid #FCF6F0;
+  padding: 12.5px 40px;
+  transition: background-color 0.25s ease;
+
+}
+
+.whatsapp:hover{
+
+  background-color: #fcf6f04d;
+
+}
