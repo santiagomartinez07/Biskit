@@ -33,12 +33,10 @@ h3 {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-
   color: #fcf6f0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin-bottom: 4%;
 }
 
@@ -225,7 +223,6 @@ h3 {
 .servicios-container {
   max-width: 1200px;
   padding: 40px 20px;
-
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 32px;
@@ -237,7 +234,6 @@ h3 {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.25);
-
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -406,8 +402,7 @@ h3 {
   object-fit: contain;
 }
 
-/*======================== ¿POR QUÉ BISKIT ======================*/
-
+/* por que */
 #por-que {
   margin-top: 1%;
   margin: 4% 15%;
@@ -416,6 +411,7 @@ h3 {
   gap: 40px;
 }
 
+/* por que imagen */
 .por-que-imagen {
   padding-top: 5%;
   flex: 10% 10% 100%;
@@ -433,6 +429,7 @@ h3 {
   border-radius: 20px;
 }
 
+/* por que titulo */
 #por-que h2 {
   font-size: 2.35rem;
   font-weight: 600;
@@ -478,8 +475,7 @@ h3 {
   font-weight: 500;
 }
 
-/*======================== CTA ======================*/
-
+/* cta */
 #cta {
   margin: 1% 0;
   background-color: #2b5392;
@@ -492,6 +488,7 @@ h3 {
   gap: 16px;
 }
 
+/* cta titulo */
 #cta h2 {
   font-family: "Playfair Display", serif;
   font-size: 2.2rem;
@@ -502,6 +499,7 @@ h3 {
   color: #f8f9fb;
 }
 
+/* cta texto */
 #cta p {
   max-width: 720px;
   margin: 0;
@@ -510,6 +508,7 @@ h3 {
   line-height: 1.5;
 }
 
+/* cta icono */
 .cta-icon {
   width: 70px;
   height: 70px;
@@ -524,6 +523,7 @@ h3 {
   height: 70px;
 }
 
+/* cta acciones */
 .cta-actions {
   display: flex;
   gap: 12px;
@@ -532,6 +532,7 @@ h3 {
   justify-content: center;
 }
 
+/* cta botones */
 .cta-btn {
   display: inline-flex;
   align-items: center;
@@ -546,6 +547,7 @@ h3 {
     color 0.25s ease;
 }
 
+/* cta primary */
 .cta-btn-primary {
   background-color: #f5f7fb;
   color: #2b5392;
@@ -555,6 +557,7 @@ h3 {
   background-color: #e8eef9;
 }
 
+/* cta secondary */
 .cta-btn-secondary {
   background-color: rgba(255, 255, 255, 0.2);
   color: #f5f7fb;
@@ -565,11 +568,13 @@ h3 {
   background-color: rgba(255, 255, 255, 0.28);
 }
 
+/* flecha */
 .cta-arrow {
   font-size: 1rem;
   line-height: 1;
 }
 
+/* responsive cta */
 @media (max-width: 768px) {
   #cta {
     margin: 10% 6%;
@@ -586,14 +591,14 @@ h3 {
   }
 }
 
-/*======================== CONTACTO ======================*/
-
+/* contacto */
 #contacto {
   background-color: #f6efe7;
   padding: 64px 8%;
   text-align: center;
 }
 
+/* contacto titulo */
 .contacto-titulo {
   font-size: 0.85rem;
   letter-spacing: 2px;
@@ -602,6 +607,7 @@ h3 {
   margin: 0 0 12px;
 }
 
+/* contacto encabezado */
 #contacto h2 {
   font-family: "Playfair Display", serif;
   font-size: 2.4rem;
@@ -609,6 +615,7 @@ h3 {
   margin: 0 0 12px;
 }
 
+/* contacto subtitulo */
 .contacto-subtitulo {
   color: #6d6155;
   max-width: 720px;
@@ -617,12 +624,14 @@ h3 {
   line-height: 1.6;
 }
 
+/* contacto grid */
 .contacto-cards {
   display: grid;
   grid-template-columns: repeat(4, minmax(180px, 1fr));
   gap: 22px;
 }
 
+/* tarjeta contacto */
 .contacto-card {
   background-color: #ffffff;
   border-radius: 16px;
@@ -648,6 +657,7 @@ h3 {
   font-size: 0.95rem;
 }
 
+/* icono contacto */
 .contacto-icono {
   width: 52px;
   height: 52px;
@@ -667,12 +677,14 @@ h3 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* responsive contacto tablet */
 @media (max-width: 1024px) {
   .contacto-cards {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
 }
 
+/* responsive contacto movil */
 @media (max-width: 600px) {
   #contacto {
     padding: 52px 6%;

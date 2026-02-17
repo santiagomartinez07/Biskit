@@ -36,18 +36,6 @@ a {
   );
 }
 
-/* lista de opciones */
-.opciones {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  margin-left: auto;
-  margin-right: 30px;
-  margin-bottom: 0;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
 /* contenedor navbar */
 .navbar .container-fluid {
   display: flex;
@@ -59,6 +47,18 @@ a {
 /* area colapsable */
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+/* lista de opciones */
+.opciones {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
 }
 
 /* marca */
@@ -154,8 +154,7 @@ a {
   margin-left: 5px;
 }
 
-/*======================== FOOTER ======================*/
-
+/* footer */
 .footer {
   background-color: #4b4b4b;
   color: #cfcfcf;
@@ -163,6 +162,7 @@ a {
   padding: 40px 10% 32px;
 }
 
+/* footer logo */
 .footer-logo {
   justify-content: center;
   color: #f3f3f3;
@@ -179,6 +179,7 @@ a {
   height: 18px;
 }
 
+/* footer textos */
 .footer-text {
   margin: 4px 0;
   color: #cfcfcf;
@@ -195,6 +196,7 @@ a {
   color: #f3f3f3;
 }
 
+/* footer separador */
 .footer-divider {
   width: 60%;
   height: 1px;
@@ -202,6 +204,7 @@ a {
   margin: 18px auto 10px;
 }
 
+/* footer copy */
 .footer-copy {
   margin: 0;
   color: #b0b0b0;
@@ -214,6 +217,7 @@ a {
   font-size: 1.2rem;
 }
 
+/* responsive footer */
 @media (max-width: 600px) {
   .footer {
     padding: 36px 8% 28px;
@@ -224,9 +228,7 @@ a {
   }
 }
 
-/* ========== RESPONSIVE - NAVBAR ========== */
-
-/* ----- Escritorio: navbar expandida ----- */
+/* responsive navbar escritorio */
 @media (min-width: 992px) {
   .navbar-collapse {
     display: flex !important;
@@ -239,7 +241,7 @@ a {
   }
 }
 
-/* responsive movil */
+/* responsive navbar movil */
 @media (max-width: 991.98px) {
   /* navbar en movil */
   .navbar {
