@@ -1,148 +1,121 @@
 /* ========== GENERALES ========== */
-h2, h3{
-
-  font-family: 'Playfair Display', serif;
-
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
 }
 
-.titulo{
-
+.titulo {
   font-weight: 600;
-  color: #2B5392 !important;
+  color: #2b5392 !important;
   font-size: 0.9rem;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
   margin-top: 40px;
-
 }
 
-.parrafo{
-
-  color: #6D6155;
-
+.parrafo {
+  color: #6d6155;
 }
-
 
 /* ========== ESTILOS DEL HERO BANNER ========== */
 
 /* ----- Hero ----- */
 .hero {
-
   height: 80vh;
-  background-image: 
+  background-image:
     linear-gradient(
       90deg,
-    rgba(67, 66, 72, 0.78) 0%,
-    rgba(92, 92, 99, 0.50) 55%,
-    rgba(92, 92, 99, 0.10) 100% ), 
-    url('/images/hero/hero.png');
+      rgba(67, 66, 72, 0.78) 0%,
+      rgba(92, 92, 99, 0.5) 55%,
+      rgba(92, 92, 99, 0.1) 100%
+    ),
+    url("../images/hero/hero.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 
-  color: #FCF6F0;
+  color: #fcf6f0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  margin-bottom: 4%;
 }
 
 /* ----- Texto ----- */
-.hero h2{
-
+.hero h2 {
   font-weight: 700;
   font-size: 3.75rem;
   line-height: 1;
   width: 685px;
   margin-bottom: 20px;
   margin-left: 20px;
-
 }
 
-.hero p{
-
+.hero p {
   font-weight: 400;
   font-size: 1.25rem;
   width: 670px;
   color: #e9e6e2de;
   margin-left: 20px;
-
 }
 
-.boton-hero{
-
+.boton-hero {
   display: inline-flex;
-  color: #FCF6F0;
+  color: #fcf6f0;
   font-weight: 600;
   border-radius: 12px;
   margin-top: 25px;
   margin-left: 25px;
   align-items: center;
-  
 }
 
-.agendar{
-
-  background-color: #2B5392;
+.agendar {
+  background-color: #2b5392;
   padding: 12.5px 30px;
   transition: background-color 0.25s ease;
-
 }
 
-.agendar img{
-
+.agendar img {
   padding-left: 12.5px;
-
 }
 
-.agendar:hover{
-
-  background-color: #1A3A6B;
-
+.agendar:hover {
+  background-color: #1a3a6b;
 }
 
-.whatsapp{
-
+.whatsapp {
   background-color: #fcf6f029;
-  border: 1px solid #FCF6F0;
+  border: 1px solid #fcf6f0;
   padding: 12.5px 40px;
   transition: background-color 0.25s ease;
-
 }
 
-.whatsapp:hover{
-
+.whatsapp:hover {
   background-color: #fcf6f04d;
-
 }
 
 /* ========== ESTILOS DE LA SECCIÓN SOBRE BISKIT ==========*/
 
-.sobre-biskit{
-
+.sobre-biskit {
   display: flex;
-  align-items: center;
-
+  align-items: center; /* 
+  margin-bottom: 4%; */
 }
 
 /* ----- Imagen ----- */
-.imagen-container{
-
+.imagen-container {
   margin-left: 120px;
-
 }
 
-.imagen-container img{
-
+.imagen-container img {
   position: relative;
-
 }
 
-.circulo{
-
+.circulo {
   position: absolute;
   left: 10%;
-  background-color: #BF8552;
+  background-color: #bf8552;
   width: 360px;
   height: 360px;
   border-radius: 50%;
@@ -150,182 +123,269 @@ h2, h3{
   justify-content: center;
   align-items: center;
   margin-top: 58px;
-
 }
 
 /* ----- Sobre Biskit ----- */
-.text-container{
-
+.text-container {
   margin-left: 15px;
-
 }
 
-.text-container h2{
-
+.text-container h2 {
   font-size: 2.35rem;
   font-weight: 900;
   line-height: 1;
-  color: #4A4A4A;
+  color: #4a4a4a;
   width: 550px;
   margin-bottom: 40px;
   letter-spacing: 2px;
-
 }
 
-.text-container .parrafo{
-
+.text-container .parrafo {
   font-size: 1.1rem;
   line-height: 1.5;
   width: 640px;
-
 }
 
 /* ----- Características ----- */
-.caracteristicas{
-
+.caracteristicas {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   margin-left: 120px;
   margin-right: 100px;
-
 }
 
-.caracteristicas article{
-
+.caracteristicas article {
   display: flex;
   align-items: center;
-
 }
 
-.barra{
-
+.barra {
   height: 75px;
   width: 11px;
   background-color: #bf85525d;
   border-radius: 12px;
-
 }
 
-.text-container-2{
-
+.text-container-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 10px;
-
 }
 
-.text-container-2 h2{
-
+.text-container-2 h2 {
   font-size: 1.4rem;
   letter-spacing: 1.25px;
   font-weight: 900;
-  color: #4A4A4A;
+  color: #4a4a4a;
   margin-bottom: 10px;
-
 }
 
-.text-container-2 .parrafo{
-
-  color: #6D6155;
+.text-container-2 .parrafo {
+  color: #6d6155;
   font-size: 0.9rem;
   width: 280px;
-
 }
 
 /* ========== ESTILOS DE NUESTROS SERVICIOS==========*/
 
 /* ----- Título ----- */
-.servicios{
-
+.servicios {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.servicios h2{
-
+.servicios h2 {
   font-size: 2.35rem;
   font-weight: 600;
   line-height: 1;
-  color: #4A4A4A;
+  color: #4a4a4a;
   width: 550px;
   margin-bottom: 20px;
   text-align: center;
-
 }
 
-.servicios .parrafo{
-
-  color: #6D6155;
+.servicios .parrafo {
+  color: #6d6155;
   font-size: 1.1rem;
   line-height: 1.5;
   width: 640px;
   text-align: center;
-
 }
 
 /* ----- Tarjetas ----- */
 
-.servicios-container{
-
+.servicios-container {
   max-width: 1200px;
   padding: 40px 20px;
 
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 32px;
-
 }
 
 .tarjeta {
-
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.25);
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .tarjeta:hover {
-
   transform: translateY(-4px);
-
 }
 
 .tarjeta-imagen {
-
   width: 100%;
   height: 55%;
   object-fit: cover;
-
 }
 
 .tarjeta-texto {
-
   padding: 10px 0px;
-
 }
 
 .tarjeta-texto h3 {
-
-  color: #4A4A4A;
+  color: #4a4a4a;
   margin-bottom: 10px;
   font-weight: 600;
   text-align: center;
-
 }
 
 .tarjeta-texto p {
-
   font-size: 0.8rem;
-  color: #6D6155;
+  color: #6d6155;
   text-align: center;
   margin: 0px 15px;
   font-weight: 400;
+}
 
+/* ======== ESTILO DE PROCESO DE ATENCIÓN ========== */
+
+/* Título */
+#proceso {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#proceso h2 {
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #4a4a4a;
+  width: 550px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#proceso .parrafo {
+  color: #6d6155;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width: 640px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.proceso-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 60%;
+  padding-left: 100px;
+}
+
+/* LÍNEA */
+.proceso-container::before {
+  content: "";
+  position: absolute;
+  left: 61px;
+  top: 25px;
+  bottom: 15%;
+  width: 1px;
+  background-color: #4a4a4a59;
+  z-index: 1;
+}
+
+.paso {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.paso .paso-titulo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.paso::before {
+  content: attr(data-step);
+  position: absolute;
+  left: -65px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #2b5392;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.paso:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.paso h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #4a4a4a;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.paso p {
+  color: #6d6155;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.paso-icono {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.paso-icono svg {
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
 }
