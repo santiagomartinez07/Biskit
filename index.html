@@ -1,18 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- metadatos -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- titulo -->
     <title>Biskit</title>
+
+    <!-- favicon -->
     <link rel="icon" type="image/png" href="images/marca/icono.png" />
+
+    <!-- bootstrap css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YcnS/1tMKpi2cE05lMCgA0/VYOYEZzAN3w3G"
       crossorigin="anonymous"
     />
+
+    <!-- estilos -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="css/styles-landing.css" />
+
+    <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,25 +31,27 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
+    <!-- navbar -->
     <header class="navbar navbar-expand-lg">
       <div class="container-fluid p-0">
-        <a class="navbar-brand" href="/"
-          ><div class="nombre">
+        <!-- marca -->
+        <a class="navbar-brand" href="/">
+          <div class="nombre">
             <img
               src="images/marca/nombre.png"
               height="40"
               alt="nombre-biskit"
             />
           </div>
+
           <div class="icono">
-            <img
-              src="images/marca/icono.png"
-              height="40"
-              alt="icono-biskit"
-            /></div
-        ></a>
-        <!-- Responsivo: checkbox y toggler para menú colapsable -->
+            <img src="images/marca/icono.png" height="40" alt="icono-biskit" />
+          </div>
+        </a>
+
+        <!-- toggle movil -->
         <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" />
         <label
           class="navbar-toggler"
@@ -47,13 +60,16 @@
         >
           <span class="toggler-line"></span>
         </label>
-        <!-- Responsivo: contenedor colapsable de opciones -->
+
+        <!-- opciones -->
         <div class="navbar-collapse" id="navbarContent">
           <ul class="opciones">
             <li class="paginas"><a href="/">Inicio</a></li>
             <li class="paginas"><a href="/">Nosotros</a></li>
             <li class="paginas"><a href="/">Servicios</a></li>
             <li class="paginas"><a href="/">Proceso</a></li>
+
+            <!-- contacto -->
             <li>
               <a class="contacto" href="">
                 <img src="images/phone.png" alt="phone" height="17.5" />
@@ -64,12 +80,16 @@
         </div>
       </div>
     </header>
+
+    <!-- hero -->
     <section class="hero">
       <h2>Cuidamos a tu mascota cuando más lo necesita</h2>
       <p>
         Hospitalización veterinaria especializada para perros y gatos con
         atención profesional, monitoreo constante y tratamientos personalizados.
       </p>
+
+      <!-- botones -->
       <div>
         <a class="boton-hero agendar" href="">
           Agendar valoración
@@ -82,7 +102,10 @@
         <a class="boton-hero whatsapp" href=""> WhatsApp </a>
       </div>
     </section>
+
+    <!-- sobre biskit -->
     <section class="sobre-biskit">
+      <!-- imagen -->
       <article class="imagen-container">
         <div class="circulo"></div>
         <img
@@ -91,6 +114,8 @@
           height="422"
         />
       </article>
+
+      <!-- texto -->
       <article class="text-container">
         <p class="titulo">SOBRE BISKIT</p>
         <h2>Especialistas en hospitalización veterinaria</h2>
@@ -103,6 +128,8 @@
         </p>
       </article>
     </section>
+
+    <!-- caracteristicas -->
     <section class="caracteristicas">
       <article>
         <div class="barra"></div>
@@ -113,6 +140,7 @@
           </p>
         </div>
       </article>
+
       <article>
         <div class="barra"></div>
         <div class="text-container-2">
@@ -123,6 +151,7 @@
           </p>
         </div>
       </article>
+
       <article>
         <div class="barra"></div>
         <div class="text-container-2">
@@ -133,6 +162,8 @@
         </div>
       </article>
     </section>
+
+    <!-- servicios -->
     <section class="servicios">
       <p class="titulo">NUESTROS SERVICIOS</p>
       <h2>Cuidado Integral durante la Hospitalización</h2>
@@ -140,6 +171,8 @@
         Ofrecemos todos los servicios necesarios para que tu mascota tenga la
         mejor atención y recuperación posible.
       </p>
+
+      <!-- tarjetas -->
       <article class="servicios-container">
         <div class="tarjeta">
           <img
@@ -155,6 +188,7 @@
             </p>
           </div>
         </div>
+
         <div class="tarjeta">
           <img
             src="images/servicios/monitoreo.jpg"
@@ -169,6 +203,7 @@
             </p>
           </div>
         </div>
+
         <div class="tarjeta">
           <img
             src="images/servicios/administracion.jpg"
@@ -183,6 +218,7 @@
             </p>
           </div>
         </div>
+
         <div class="tarjeta">
           <img
             src="images/servicios/supervision.jpg"
@@ -197,6 +233,7 @@
             </p>
           </div>
         </div>
+
         <div class="tarjeta">
           <img
             src="images/servicios/espacios.jpg"
@@ -211,6 +248,7 @@
             </p>
           </div>
         </div>
+
         <div class="tarjeta">
           <img
             src="images/servicios/comunicacion.jpg"
@@ -226,6 +264,8 @@
         </div>
       </article>
     </section>
+
+    <!-- proceso -->
     <section id="proceso">
       <p class="titulo">NUESTRO PROCESO</p>
       <h2>Cómo Funciona Nuestra Hospitalización Veterinaria</h2>
@@ -233,7 +273,10 @@
         Nuestro proceso de hospitalización veterinaria está diseñado para
         brindar la mejor atención a tu mascota en cada etapa de su recuperación.
       </p>
+
+      <!-- pasos -->
       <article class="proceso-container">
+        <!-- paso 1 -->
         <div class="paso" data-step="1">
           <div class="paso-titulo">
             <div class="paso-icono">
@@ -258,6 +301,8 @@
           </div>
           <p>Revisión completa del estado de salud de tu mascota.</p>
         </div>
+
+        <!-- paso 2 -->
         <div class="paso" data-step="2">
           <div class="paso-titulo">
             <div class="paso-icono">
@@ -312,6 +357,8 @@
           </div>
           <p>Diseñamos un plan adaptado a las necesidades específicas.</p>
         </div>
+
+        <!-- paso 3 -->
         <div class="paso" data-step="3">
           <div class="paso-titulo">
             <div class="paso-icono">
@@ -340,9 +387,10 @@
             </div>
             <h3>Estancia hospitalaria</h3>
           </div>
-
           <p>Cuidados profesionales en instalaciones seguras y equipadas.</p>
         </div>
+
+        <!-- paso 4 -->
         <div class="paso" data-step="4">
           <div class="paso-titulo">
             <div class="paso-icono">
@@ -370,9 +418,10 @@
             </div>
             <h3>Seguimiento continuo</h3>
           </div>
-
           <p>Monitoreo constante y comunicación con los dueños.</p>
         </div>
+
+        <!-- paso 5 -->
         <div class="paso" data-step="5">
           <div class="paso-titulo">
             <div class="paso-icono">
@@ -395,35 +444,47 @@
         </div>
       </article>
     </section>
+
+    <!-- bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9pGkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- por que biskit -->
     <section id="por-que">
       <p class="titulo">¿POR QUÉ BISKIT?</p>
       <h2>Tu mascota en las mejores manos</h2>
+
+      <!-- razones -->
       <article id="razones">
         <div class="razon">
           <div class="razon-icono"></div>
           <p>Atención profesional especializada</p>
         </div>
+
         <div class="razon">
           <div class="razon-icono"></div>
           <p>Instalaciones seguras y equipadas</p>
         </div>
+
         <div class="razon">
           <div class="razon-icono"></div>
           <p>Trato amoroso y respetuoso</p>
         </div>
+
         <div class="razon">
           <div class="razon-icono"></div>
           <p>Comunicación constante con los dueños</p>
         </div>
+
         <div class="razon">
           <div class="razon-icono"></div>
           <p>Prioridad en el bienestar y recuperación</p>
         </div>
+
+        <!-- imagen -->
         <img src="/images/por-que/por-que.jpg" alt="Imagen de por qué Biskit" />
       </article>
     </section>

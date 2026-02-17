@@ -1,3 +1,4 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +6,18 @@
   font-family: "Inter", sans-serif;
 }
 
+/* body */
 body {
   background-color: #fcf6f0;
   margin-top: 4%;
 }
 
+/* enlaces */
 a {
   text-decoration: none;
 }
 
-/* ========== ESTILOS DE LA NAVBAR ========== */
-
-/* ----- Generales ----- */
+/* navbar */
 .navbar {
   display: flex;
   position: sticky;
@@ -35,6 +36,7 @@ a {
   );
 }
 
+/* lista de opciones */
 .opciones {
   display: flex;
   list-style: none;
@@ -46,6 +48,7 @@ a {
   font-weight: 500;
 }
 
+/* contenedor navbar */
 .navbar .container-fluid {
   display: flex;
   flex-wrap: nowrap;
@@ -53,31 +56,34 @@ a {
   width: 100%;
 }
 
+/* area colapsable */
 .navbar-collapse {
   justify-content: flex-end;
 }
 
-/* ----- BISKIT ----- */
-
+/* marca */
 .navbar-brand {
   display: flex;
   padding: 0;
   margin: 0;
 }
 
+/* nombre logo */
 .nombre {
   padding-left: 30px;
 }
 
+/* icono logo */
 .icono {
   padding-left: 10px;
 }
 
-/* ----- Toggler (Responsive) ----- */
+/* checkbox oculto */
 .nav-toggle-checkbox {
   display: none;
 }
 
+/* boton hamburguesa */
 .navbar-toggler {
   border: none;
   margin-left: auto;
@@ -91,6 +97,7 @@ a {
   cursor: pointer;
 }
 
+/* lineas hamburguesa */
 .navbar-toggler::before,
 .navbar-toggler::after,
 .navbar-toggler span.toggler-line {
@@ -102,22 +109,24 @@ a {
   border-radius: 2px;
 }
 
+/* foco boton */
 .navbar-toggler:focus {
   box-shadow: none;
 }
 
-/* ----- Páginas ----- */
+/* links paginas */
 .paginas a {
   color: #6d6155;
   margin: 0px 20px;
   transition: color 0.25s ease;
 }
 
+/* hover links */
 .paginas a:hover {
   color: #2b5392;
 }
 
-/* ----- Botón Contáctanos ----- */
+/* boton contacto */
 .contacto {
   display: flex;
   align-items: center;
@@ -128,48 +137,49 @@ a {
   transition: background-color 0.25s ease;
 }
 
+/* hover contacto */
 .contacto:hover {
   background-color: #1a3a6b;
 }
 
+/* texto contacto */
 .contacto p {
   color: #fcf6f0;
   margin-right: 10px;
   margin-left: 17.5px;
 }
 
+/* icono contacto */
 .contacto img {
   margin-left: 5px;
 }
 
-/* ========== RESPONSIVE - NAVBAR ========== */
-
-/* ----- Escritorio: navbar expandida ----- */
+/* responsive escritorio */
 @media (min-width: 992px) {
   .navbar-collapse {
     display: flex !important;
     flex: 1 1 0% !important;
   }
 
-  /* Responsive: ocultar el toggler en escritorio */
+  /* ocultar hamburguesa */
   .navbar-toggler {
     display: none !important;
   }
 }
 
-/* ----- Móvil: navbar colapsada ----- */
+/* responsive movil */
 @media (max-width: 991.98px) {
-  /* Responsive: posición relativa para el menú desplegable */
+  /* navbar en movil */
   .navbar {
     position: relative;
   }
 
-  /* Responsive: permitir que el contenido se envuelva */
+  /* ajustar contenedor */
   .navbar .container-fluid {
     flex-wrap: wrap;
   }
 
-  /* Responsive: menú desplegable con animación */
+  /* menu desplegable */
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -187,13 +197,13 @@ a {
     pointer-events: none;
   }
 
-  /* Responsive: mostrar menú al activar el checkbox */
+  /* abrir menu */
   .nav-toggle-checkbox:checked ~ .navbar-collapse {
     clip-path: inset(0 0 0 0);
     pointer-events: auto;
   }
 
-  /* Responsive: opciones en columna centradas */
+  /* opciones en columna */
   .opciones {
     flex-direction: column;
     align-items: center;
@@ -201,13 +211,13 @@ a {
     padding: 0;
   }
 
-  /* Responsive: espaciado de las páginas */
+  /* links en movil */
   .paginas a {
     margin: 10px 0;
     display: block;
   }
 
-  /* Responsive: ajustar botón contáctanos */
+  /* contacto en movil */
   .contacto {
     margin-left: 0;
     margin-top: 15px;

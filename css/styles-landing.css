@@ -1,9 +1,10 @@
-/* ========== GENERALES ========== */
+/* titulos */
 h2,
 h3 {
   font-family: "Playfair Display", serif;
 }
 
+/* etiquetas */
 .titulo {
   font-weight: 600;
   color: #2b5392 !important;
@@ -13,13 +14,12 @@ h3 {
   margin-top: 40px;
 }
 
+/* texto */
 .parrafo {
   color: #6d6155;
 }
 
-/* ========== ESTILOS DEL HERO BANNER ========== */
-
-/* ----- Hero ----- */
+/* hero */
 .hero {
   height: 80vh;
   background-image:
@@ -42,7 +42,7 @@ h3 {
   margin-bottom: 4%;
 }
 
-/* ----- Texto ----- */
+/* texto hero */
 .hero h2 {
   font-weight: 700;
   font-size: 3.75rem;
@@ -60,6 +60,7 @@ h3 {
   margin-left: 20px;
 }
 
+/* botones hero */
 .boton-hero {
   display: inline-flex;
   color: #fcf6f0;
@@ -70,6 +71,7 @@ h3 {
   align-items: center;
 }
 
+/* boton agendar */
 .agendar {
   background-color: #2b5392;
   padding: 12.5px 30px;
@@ -84,6 +86,7 @@ h3 {
   background-color: #1a3a6b;
 }
 
+/* boton whatsapp */
 .whatsapp {
   background-color: #fcf6f029;
   border: 1px solid #fcf6f0;
@@ -95,15 +98,14 @@ h3 {
   background-color: #fcf6f04d;
 }
 
-/* ========== ESTILOS DE LA SECCIÓN SOBRE BISKIT ==========*/
-
+/* seccion sobre biskit */
 .sobre-biskit {
   display: flex;
   align-items: center; /* 
   margin-bottom: 4%; */
 }
 
-/* ----- Imagen ----- */
+/* imagen sobre biskit */
 .imagen-container {
   margin-left: 120px;
 }
@@ -112,6 +114,7 @@ h3 {
   position: relative;
 }
 
+/* circulo fondo */
 .circulo {
   position: absolute;
   left: 10%;
@@ -125,7 +128,7 @@ h3 {
   margin-top: 58px;
 }
 
-/* ----- Sobre Biskit ----- */
+/* texto sobre biskit */
 .text-container {
   margin-left: 15px;
 }
@@ -146,7 +149,7 @@ h3 {
   width: 640px;
 }
 
-/* ----- Características ----- */
+/* caracteristicas */
 .caracteristicas {
   display: flex;
   justify-content: space-between;
@@ -160,6 +163,7 @@ h3 {
   align-items: center;
 }
 
+/* barra decorativa */
 .barra {
   height: 75px;
   width: 11px;
@@ -167,6 +171,7 @@ h3 {
   border-radius: 12px;
 }
 
+/* texto caracteristicas */
 .text-container-2 {
   display: flex;
   flex-direction: column;
@@ -188,9 +193,7 @@ h3 {
   width: 280px;
 }
 
-/* ========== ESTILOS DE NUESTROS SERVICIOS==========*/
-
-/* ----- Título ----- */
+/* seccion servicios */
 .servicios {
   margin-top: 5%;
   display: flex;
@@ -198,6 +201,7 @@ h3 {
   align-items: center;
 }
 
+/* titulo servicios */
 .servicios h2 {
   font-size: 2.35rem;
   font-weight: 600;
@@ -208,6 +212,7 @@ h3 {
   text-align: center;
 }
 
+/* texto servicios */
 .servicios .parrafo {
   color: #6d6155;
   font-size: 1.1rem;
@@ -216,8 +221,7 @@ h3 {
   text-align: center;
 }
 
-/* ----- Tarjetas ----- */
-
+/* grid servicios */
 .servicios-container {
   max-width: 1200px;
   padding: 40px 20px;
@@ -227,6 +231,7 @@ h3 {
   gap: 32px;
 }
 
+/* tarjeta */
 .tarjeta {
   background-color: #f8f9fa;
   border-radius: 16px;
@@ -242,12 +247,14 @@ h3 {
   transform: translateY(-4px);
 }
 
+/* imagen tarjeta */
 .tarjeta-imagen {
   width: 100%;
   height: 55%;
   object-fit: cover;
 }
 
+/* texto tarjeta */
 .tarjeta-texto {
   padding: 10px 0px;
 }
@@ -267,9 +274,7 @@ h3 {
   font-weight: 400;
 }
 
-/* ======== ESTILO DE PROCESO DE ATENCIÓN ========== */
-
-/* Título */
+/* seccion proceso */
 #proceso {
   margin-top: 5%;
   display: flex;
@@ -277,6 +282,7 @@ h3 {
   align-items: center;
 }
 
+/* titulo proceso */
 #proceso h2 {
   font-size: 2.35rem;
   font-weight: 600;
@@ -287,6 +293,7 @@ h3 {
   text-align: center;
 }
 
+/* texto proceso */
 #proceso .parrafo {
   color: #6d6155;
   font-size: 1.1rem;
@@ -296,6 +303,7 @@ h3 {
   margin-bottom: 50px;
 }
 
+/* contenedor timeline */
 .proceso-container {
   display: flex;
   flex-direction: column;
@@ -304,7 +312,7 @@ h3 {
   padding-left: 100px;
 }
 
-/* LÍNEA */
+/* linea timeline */
 .proceso-container::before {
   content: "";
   position: absolute;
@@ -316,6 +324,7 @@ h3 {
   z-index: 1;
 }
 
+/* caja paso */
 .paso {
   width: 100%;
   display: flex;
@@ -331,12 +340,14 @@ h3 {
   transition: box-shadow 0.3s ease;
 }
 
+/* fila titulo paso */
 .paso .paso-titulo {
   display: flex;
   align-items: center;
   margin-bottom: 0px;
 }
 
+/* numero paso */
 .paso::before {
   content: attr(data-step);
   position: absolute;
@@ -355,10 +366,12 @@ h3 {
   z-index: 10;
 }
 
+/* hover paso */
 .paso:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
+/* titulo paso */
 .paso h3 {
   font-size: 1.25rem;
   font-weight: 700;
@@ -367,12 +380,15 @@ h3 {
   margin-top: 0;
 }
 
+/* texto paso */
 .paso p {
   color: #6d6155;
   font-size: 0.95rem;
   line-height: 1.5;
   margin: 0;
 }
+
+/* icono paso */
 .paso-icono {
   width: 50px;
   height: 50px;
@@ -390,8 +406,7 @@ h3 {
   object-fit: contain;
 }
 
-/* ========== ESTILOS POR QUÉ BISKIT ========== */
-
+/* seccion por que */
 #por-que {
   margin-top: 5%;
   margin: 4% 10%;
@@ -400,6 +415,7 @@ h3 {
   align-items: start;
 }
 
+/* lista razones */
 #razones {
   display: flex;
   flex-direction: column;
@@ -407,6 +423,7 @@ h3 {
   max-width: 600px;
 }
 
+/* item razon */
 .razon {
   display: flex;
   align-items: center;
@@ -414,6 +431,7 @@ h3 {
   padding: 15px 0;
 }
 
+/* circulo icono */
 .razon-icono {
   width: 45px;
   height: 45px;
@@ -425,6 +443,7 @@ h3 {
   flex-shrink: 0;
 }
 
+/* texto razon */
 .razon p {
   color: #6d6155;
   font-size: 0.95rem;
@@ -432,4 +451,3 @@ h3 {
   margin: 0;
   font-weight: 500;
 }
-/*======================== ¿POR QUÉ BISKIT ======================*/
