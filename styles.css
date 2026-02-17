@@ -154,7 +154,79 @@ a {
   margin-left: 5px;
 }
 
-/* responsive escritorio */
+/*======================== FOOTER ======================*/
+
+.footer {
+  background-color: #4b4b4b;
+  color: #cfcfcf;
+  text-align: center;
+  padding: 40px 10% 32px;
+}
+
+.footer-logo {
+  justify-content: center;
+  color: #f3f3f3;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.footer-logo img {
+  width: 15%;
+}
+
+.footer-paw {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-text {
+  margin: 4px 0;
+  color: #cfcfcf;
+  font-size: 0.95rem;
+}
+
+.footer-team {
+  margin: 10px 0 0;
+  color: #bdbdbd;
+  font-size: 0.95rem;
+}
+
+.footer-team:hover {
+  color: #f3f3f3;
+}
+
+.footer-divider {
+  width: 60%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 18px auto 10px;
+}
+
+.footer-copy {
+  margin: 0;
+  color: #b0b0b0;
+  font-size: 0.85rem;
+}
+
+.footer-heart {
+  color: #bf8552;
+  margin-left: 1px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 36px 8% 28px;
+  }
+
+  .footer-divider {
+    width: 80%;
+  }
+}
+
+/* ========== RESPONSIVE - NAVBAR ========== */
+
+/* ----- Escritorio: navbar expandida ----- */
 @media (min-width: 992px) {
   .navbar-collapse {
     display: flex !important;
