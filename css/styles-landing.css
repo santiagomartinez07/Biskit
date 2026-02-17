@@ -461,7 +461,7 @@ h3 {
 /*======================== CTA ======================*/
 
 #cta {
-  margin: 6% 0;
+  margin: 1% 0;
   background-color: #2b5392;
   color: #f5f7fb;
   padding: 48px 24px;
@@ -563,5 +563,106 @@ h3 {
   .cta-btn {
     width: 100%;
     justify-content: center;
+  }
+}
+
+/*======================== CONTACTO ======================*/
+
+#contacto {
+  background-color: #f6efe7;
+  padding: 64px 8%;
+  text-align: center;
+}
+
+.contacto-titulo {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #2b5392;
+  margin: 0 0 12px;
+}
+
+#contacto h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  color: #4a4a4a;
+  margin: 0 0 12px;
+}
+
+.contacto-subtitulo {
+  color: #6d6155;
+  max-width: 720px;
+  margin: 0 auto 36px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contacto-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 22px;
+}
+
+.contacto-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 26px 18px;
+  border: 1px solid #eadfd4;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacto-card h3 {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin: 0;
+  font-weight: 700;
+}
+
+.contacto-card p {
+  margin: 0;
+  color: #6d6155;
+  font-size: 0.95rem;
+}
+
+.contacto-icono {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #e9eef7;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto-icono svg {
+  width: 26px;
+  height: 26px;
+}
+
+.contacto-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .contacto-cards {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  #contacto {
+    padding: 52px 6%;
+  }
+
+  #contacto h2 {
+    font-size: 1.8rem;
+  }
+
+  .contacto-cards {
+    grid-template-columns: 1fr;
   }
 }
